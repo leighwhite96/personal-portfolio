@@ -91,6 +91,6 @@ body {
   }
 }
 
-.social {
+.social, .social:focus {
   background-color: transparent;
 }
