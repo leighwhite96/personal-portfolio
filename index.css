@@ -21,6 +21,7 @@ body {
   text-align: center;
   color: black;
   background: url("images/CODE1.jpeg") no-repeat bottom center scroll;
+  background-attachment: fixed;
   background-color: gray;
   background-size: cover;
   opacity: 0.8;
@@ -37,6 +38,7 @@ body {
     text-align: center;
     color: black;
     background: url("images/CODE1.jpeg") no-repeat bottom center scroll;
+    background-attachment: fixed;
     background-color: gray;
     background-size: cover;
     opacity: 0.8;
@@ -63,6 +65,17 @@ body {
 .fa-angle-double-down:hover{
   color: gray;
 }
+
+#maFace {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+#maFace:hover {
+  box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.5);
+}
+
 .card {
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
@@ -88,8 +101,11 @@ body {
   padding-bottom: 250px;
   background: url("images/touch3.jpeg");
   background-size: cover;
+  background-attachment: fixed;
+}
 
-
+#contact h2 {
+  font-size: 50px;
 }
 
 .carousel {
@@ -116,26 +132,33 @@ body {
 .social, .social:focus {
   background-color: transparent;
   font-size: 20px;
+  box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
+/*.modal-body {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
 .required {
   color:red;
   font-weight:bold
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: transparent; /* Set a background color */
-    color: black; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
 }
 
 #myBtn:hover {
