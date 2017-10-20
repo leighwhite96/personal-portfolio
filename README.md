@@ -1,6 +1,6 @@
 # Personal Portfolio - made with HTML, CSS and Basic JavaScript
 
-An ongoing project that I will expand on and fill up with relevant information as I progress. It is currently a one page template that utilises Bootstrap features such as modals and carousels and nav bars etc. I designed it mobile first and have ensured that the page looks appropriate on smaller screens. 
+An ongoing project that I will expand on and fill up with relevant information as I progress. It is currently a one page template that utilises Bootstrap features such as modals, carousels and nav bars etc. Bootstrap by design is mobile first and I have ensured that the page looks appropriate on smaller screens by using media queries.  
 
 Going forward I will ensure that the website repsonds well to devices larger than a standard laptop screen. 
 
