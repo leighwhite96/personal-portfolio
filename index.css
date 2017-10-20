@@ -4,6 +4,8 @@ body {
   margin: 0;
   padding-top: 50px;
   font-family: 'Loved by the King';
+  background: url("images/grilled.png") repeat bottom center scroll;
+  background-attachment: fixed;
 }
 
 .nav {
@@ -65,11 +67,6 @@ body {
   color: gray;
 }
 
-#about {
-  background: url("images/grilled.png") repeat bottom center scroll;
-  background-attachment: fixed;
-}
-
 #maFace {
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.3);
   transition: 0.3s;
@@ -78,11 +75,6 @@ body {
 
 #maFace:hover {
   box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.5);
-}
-
-#projects {
-  background: url("images/grilled.png") repeat bottom center scroll;
-  background-attachment: fixed;
 }
 
 .card {
@@ -144,12 +136,6 @@ body {
   box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.5);
 }
 
-/*.modal-body {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}*/
 .required {
   color:red;
   font-weight:bold
